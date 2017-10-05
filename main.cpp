@@ -1,3 +1,8 @@
+#include <iostream>
+#include <fstream>
+#include "bitmap.h"
+#include <cstdlib>
+
 int main()
 {
   // get the photo and turn the pixels into a matrix
