@@ -38,9 +38,9 @@ int main()
                 for ( cols = 0 ; cols < bmp[rows].size() ; cols++)
                 {
                     rgb = bmp[rows][cols];
-                    rgb.red = (rgb.red + rgb.green + rgb.blue)/3;
-                    rgb.green = (rgb.red + rgb.green + rgb.blue)/3;
-                    rgb.blue = (rgb.red + rgb.green +rgb.blue)/3;
+                    rgb.red = ((rgb.red + rgb.green + rgb.blue)/3);
+                    rgb.green = rgb.red;
+                    rgb.blue = rgb.red;
                     bmp[rows][cols] = rgb;
                 }
             }
@@ -66,7 +66,7 @@ int main()
             loop = 0;
         }
 
-}
+    }
 
   // get the photo and turn the pixels into a matrix
   //loop that goes through every row in the matrix with a loop inside of it that goes through every column in the row
