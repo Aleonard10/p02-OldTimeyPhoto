@@ -1,3 +1,4 @@
+//Author: Alex Leonard
 #include <iostream>
 #include <fstream>
 #include "bitmap.h"
